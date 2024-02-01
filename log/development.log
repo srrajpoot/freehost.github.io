@@ -1,0 +1,1901 @@
+Started GET "/getsde/index" for ::1 at 2024-01-30 19:53:55 +0530
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant GetsdeController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 19:53:57 +0530
+  
+ActionController::RoutingError (uninitialized constant GetsdeController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 19:55:07 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 3676)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3807)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms | Allocations: 8540)
+
+
+  
+ActionView::Template::Error (The asset "stylesheets.css" is not present in the asset pipeline.
+):
+    18: 
+    19: <%# <%= stylesheet_link_tag 'style', media: 'all' %> %>
+    20: 
+    21:   <%= stylesheet_link_tag 'stylesheets' %>
+    22: 
+    23: 
+    24: 
+  
+app/views/getsde/index.html.erb:21
+Started GET "/getsde/index" for ::1 at 2024-01-30 19:56:13 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 847.5ms | Allocations: 90201)
+  Rendered layout layouts/application.html.erb (Duration: 929.6ms | Allocations: 113113)
+Completed 500 Internal Server Error in 932ms (ActiveRecord: 0.0ms | Allocations: 113390)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 19:56:29 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 131.9ms | Allocations: 28654)
+  Rendered layout layouts/application.html.erb (Duration: 298.4ms | Allocations: 50612)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms | Allocations: 54876)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:00:45 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 188.9ms | Allocations: 44343)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 0.0ms | Allocations: 48607)
+
+
+  
+ActionView::Template::Error (Asset `application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link application.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:01:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 380.4ms | Allocations: 59977)
+Completed 500 Internal Server Error in 406ms (ActiveRecord: 0.0ms | Allocations: 64241)
+
+
+  
+ActionView::Template::Error (Asset `controllers/application.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link controllers/application.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:01:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 410.3ms | Allocations: 64645)
+Completed 500 Internal Server Error in 431ms (ActiveRecord: 0.0ms | Allocations: 68911)
+
+
+  
+ActionView::Template::Error (Asset `controllers/hello_controller.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link controllers/hello_controller.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:02:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 215.9ms | Allocations: 47564)
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 0.0ms | Allocations: 51828)
+
+
+  
+ActionView::Template::Error (Asset `controllers/hello_controller.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link controllers/hello_controller.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:06:43 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 409.6ms | Allocations: 66221)
+Completed 500 Internal Server Error in 432ms (ActiveRecord: 0.0ms | Allocations: 70485)
+
+
+  
+ActionView::Template::Error (Asset `controllers/index.js` was not declared to be precompiled in production.
+Declare links to your assets in `app/assets/config/manifest.js`.
+
+  //= link controllers/index.js
+
+and restart your server):
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag 'custom' %>
+  
+app/views/layouts/application.html.erb:10
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:07:16 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 4403)
+Completed 200 OK in 51ms (Views: 34.0ms | ActiveRecord: 0.0ms | Allocations: 8710)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:09:58 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1316)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 4080)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 5156)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/lld.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:10:23 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 5501)
+Completed 200 OK in 53ms (Views: 38.9ms | ActiveRecord: 0.0ms | Allocations: 9822)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/lld.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 20:12:49 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1316)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4074)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 5150)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:12:44 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1528)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 5477)
+Completed 200 OK in 53ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 9798)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:13:03 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1315)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 4076)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 5152)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:15:32 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 1073)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 1343)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:16:10 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1347)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4110)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms | Allocations: 5178)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:17:21 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1380)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4149)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 5216)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:18:19 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1414)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4175)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 5251)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/dsa.png"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:18:52 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1445)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 4220)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 5296)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:19:13 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1136)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 1399)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:19:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1662)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 5638)
+Completed 200 OK in 45ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 9959)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:23:06 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 3041)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 3130)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 4182)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    19: <%# <%= stylesheet_link_tag 'style', media: 'all' %> %>
+    20: 
+    21:   <%= stylesheet_link_tag 'stylesheets' %>
+    22:   <link rel="stylesheet" href="<%= asset_path('vendor/bootstrap/css/bootstrap.min.css') %>">
+    23: 
+    24: 
+    25: 
+  
+app/views/getsde/index.html.erb:22
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:26:11 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2904)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2993)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 4027)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    7:       <link rel="stylesheet" href="<%= asset_path('vendor/bootstrap/css/bootstrap.min.css') %>">
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:27:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3426)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3557)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 7810)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    7:       <link rel="stylesheet" href="<%= asset_path('vendor/bootstrap/css/bootstrap.min.css') %>">
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:28:38 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1883)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1966)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2226)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    7:       <link rel="stylesheet" href="<%= asset_path('vendor/bootstrap/css/bootstrap.min.css') %>">
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:30:16 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 2903)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2992)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4026)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    7:     <link rel="stylesheet" href="<%= asset_path('vendor/bootstrap/css/bootstrap.min.css') %>">
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:30:33 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1511)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 4357)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 5457)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:32:29 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 1444)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 4212)
+Completed 200 OK in 29ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 5282)
+
+
+Started GET "/" for ::1 at 2024-01-30 22:32:30 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 292)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 1168)
+
+
+Started GET "/getsde/index" for ::1 at 2024-01-30 22:32:55 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1662)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 5614)
+Completed 200 OK in 50ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 9935)
+
+
+Started GET "/" for ::1 at 2024-01-30 22:32:55 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 292)
+Completed 200 OK in 6ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1166)
+
+
+Started GET "/getsde/index" for ::1 at 2024-01-31 10:29:00 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1662)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 5632)
+Completed 200 OK in 43ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 9953)
+
+
+Started GET "/" for ::1 at 2024-01-31 10:29:00 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.8ms | Allocations: 545)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 1530)
+
+
+Started GET "/getsde/index" for ::1 at 2024-01-31 10:29:10 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 352)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1248)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 1514)
+
+
+Started GET "/" for ::1 at 2024-01-31 10:29:10 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 15)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 218)
+
+
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE "sadaram_6" ENCODING = 'utf8'[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE DATABASE "sadaram_test" ENCODING = 'utf8'[0m
+  [1m[35m (283.9ms)[0m  [1m[35mCREATE DATABASE "sadaram_7" ENCODING = 'utf8'[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE "sadaram_test" ENCODING = 'utf8'[0m
+Started GET "/getsde/index" for ::1 at 2024-01-31 14:30:32 +0530
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1676)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 5747)
+Completed 200 OK in 279ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 57730)
+
+
+Started GET "/" for ::1 at 2024-01-31 14:30:33 +0530
+  
+ActionController::RoutingError (uninitialized constant RenderController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-31 14:31:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1672)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 5741)
+Completed 200 OK in 81ms (Views: 37.0ms | ActiveRecord: 0.0ms | Allocations: 18440)
+
+
+Started GET "/" for ::1 at 2024-01-31 14:31:33 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 304)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1314)
+
+
+Started GET "/getsde/index" for ::1 at 2024-01-31 14:35:12 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 1672)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 5729)
+Completed 200 OK in 83ms (Views: 42.0ms | ActiveRecord: 0.0ms | Allocations: 18428)
+
+
+Started GET "/" for ::1 at 2024-01-31 14:35:12 +0530
+  
+ActionController::RoutingError (uninitialized constant RenderController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-31 14:35:27 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1455)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4249)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 5510)
+
+
+Started GET "/" for ::1 at 2024-01-31 14:35:27 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 304)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1314)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (2.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-01-31 09:13:22.332781', '2024-01-31 09:13:22.332793') RETURNING "key"[0m
+Migrating to DeviseCreateAdminUsers (20240131091124)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.7ms)[0m  [1m[35mCREATE TABLE "admin_users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admin_users_on_email" ON "admin_users" ("email")[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admin_users_on_reset_password_token" ON "admin_users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240131091124') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateActiveAdminComments (20240131091128)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (13.9ms)[0m  [1m[35mCREATE TABLE "active_admin_comments" ("id" bigserial primary key, "namespace" character varying, "body" text, "resource_type" character varying, "resource_id" bigint, "author_type" character varying, "author_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_resource" ON "active_admin_comments" ("resource_type", "resource_id")[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_author" ON "active_admin_comments" ("author_type", "author_id")[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_namespace" ON "active_admin_comments" ("namespace")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240131091128') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.8ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/getsde/index" for ::1 at 2024-01-31 16:33:51 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 2 pending migrations:
+
+db/migrate/20240131104122_devise_create_admin_users.rb
+db/migrate/20240131104126_create_active_admin_comments.rb
+
+
+):
+  
+activerecord (7.1.3) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to DeviseCreateAdminUsers (20240131104122)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "admin_users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (28.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "sadaram_7"[0m
+  [1m[35m (99.1ms)[0m  [1m[35mCREATE DATABASE "sadaram_7" ENCODING = 'utf8'[0m
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (9.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (1.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-01-31 11:05:01.982853', '2024-01-31 11:05:01.982927') RETURNING "key"[0m
+Migrating to DeviseCreateAdminUsers (20240131104122)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (13.0ms)[0m  [1m[35mCREATE TABLE "admin_users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admin_users_on_email" ON "admin_users" ("email")[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admin_users_on_reset_password_token" ON "admin_users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240131104122') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateActiveAdminComments (20240131104126)
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.3ms)[0m  [1m[35mCREATE TABLE "active_admin_comments" ("id" bigserial primary key, "namespace" character varying, "body" text, "resource_type" character varying, "resource_id" bigint, "author_type" character varying, "author_id" bigint, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_resource" ON "active_admin_comments" ("resource_type", "resource_id")[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_author" ON "active_admin_comments" ("author_type", "author_id")[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE INDEX "index_active_admin_comments_on_namespace" ON "active_admin_comments" ("namespace")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240131104126') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/getsde/index" for ::1 at 2024-01-31 16:35:18 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 11.0ms | Allocations: 1666)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 5770)
+Completed 200 OK in 85ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 10713)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-31 16:35:48 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 350)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1263)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/admin" for ::1 at 2024-01-31 16:35:55 +0530
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 739)
+
+
+Started GET "/admin/login" for ::1 at 2024-01-31 16:35:55 +0530
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering layout /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/layouts/active_admin_logged_out.html.erb
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/devise/shared/_links.erb (Duration: 3.1ms | Allocations: 650)
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 47.8ms | Allocations: 11166)
+  Rendered layout /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/layouts/active_admin_logged_out.html.erb (Duration: 2009.8ms | Allocations: 289259)
+Completed 200 OK in 2146ms (Views: 2016.8ms | ActiveRecord: 24.7ms | Allocations: 306731)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mAdminUser Exists? (5.2ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = $1 LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[36mAdminUser Create (1.7ms)[0m  [1m[32mINSERT INTO "admin_users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "admin@example.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2024-01-31 11:06:14.686904"], ["updated_at", "2024-01-31 11:06:14.686904"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/admin/login" for ::1 at 2024-01-31 16:36:28 +0530
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 303 See Other in 545ms (ActiveRecord: 1.7ms | Allocations: 8718)
+
+
+Started GET "/admin" for ::1 at 2024-01-31 16:36:28 +0530
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/page/index.html.arb (Duration: 51.4ms | Allocations: 16513)
+Completed 200 OK in 73ms (Views: 54.4ms | ActiveRecord: 0.5ms | Allocations: 19695)
+
+
+Started GET "/admin" for ::1 at 2024-01-31 16:37:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/page/index.html.arb (Duration: 344.7ms | Allocations: 60606)
+Completed 200 OK in 554ms (Views: 363.1ms | ActiveRecord: 32.6ms | Allocations: 87862)
+
+
+Started GET "/admin/admin_users" for ::1 at 2024-01-31 16:37:30 +0530
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 113.1ms | Allocations: 28078)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 1.9ms | Allocations: 31910)
+
+
+  
+ActionView::Template::Error (Ransack needs AdminUser attributes explicitly allowlisted as
+searchable. Define a `ransackable_attributes` class method in your `AdminUser`
+model, watching out for items you DON'T want searchable (for
+example, `encrypted_password`, `password_reset_token`, `owner` or
+other sensitive information). You can use the following as a base:
+
+```ruby
+class AdminUser < ApplicationRecord
+
+  # ...
+
+  def self.ransackable_attributes(auth_object = nil)
+    ["created_at", "email", "encrypted_password", "id", "id_value", "remember_created_at", "reset_password_sent_at", "reset_password_token", "updated_at"]
+  end
+
+  # ...
+
+end
+```
+):
+    1: # frozen_string_literal: true
+    2: insert_tag renderer_for(:index)
+  
+ransack (4.1.1) lib/ransack/adapters/active_record/base.rb:112:in `deprecated_ransackable_list'
+ransack (4.1.1) lib/ransack/adapters/active_record/base.rb:38:in `ransackable_attributes'
+ransack (4.1.1) lib/ransack/context.rb:159:in `ransackable_attribute?'
+ransack (4.1.1) lib/ransack/adapters/active_record/context.rb:67:in `attribute_method?'
+ransack (4.1.1) lib/ransack/nodes/grouping.rb:126:in `attribute_method?'
+ransack (4.1.1) lib/ransack/search.rb:105:in `method_missing'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:62:in `public_send'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:62:in `block in current_filter'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:62:in `each'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:62:in `detect'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:62:in `current_filter'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:52:in `select_html'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:42:in `block in to_html'
+actionview (7.1.3) lib/action_view/helpers/capture_helper.rb:50:in `block in capture'
+actionview (7.1.3) lib/action_view/buffers.rb:75:in `capture'
+actionview (7.1.3) lib/action_view/helpers/capture_helper.rb:50:in `capture'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base.rb:13:in `input_wrapping'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/base/search_method_select.rb:40:in `to_html'
+activeadmin (3.2.0) lib/active_admin/inputs/filters/string_input.rb:20:in `to_html'
+formtastic (5.0.0) lib/formtastic/helpers/input_helper.rb:240:in `input'
+activeadmin (3.2.0) lib/active_admin/filters/forms.rb:15:in `filter'
+activeadmin (3.2.0) lib/active_admin/filters/forms.rb:65:in `block (2 levels) in active_admin_filters_form_for'
+activeadmin (3.2.0) lib/active_admin/filters/forms.rb:58:in `each'
+activeadmin (3.2.0) lib/active_admin/filters/forms.rb:58:in `block in active_admin_filters_form_for'
+actionview (7.1.3) lib/action_view/helpers/capture_helper.rb:50:in `block in capture'
+actionview (7.1.3) lib/action_view/buffers.rb:75:in `capture'
+actionview (7.1.3) lib/action_view/helpers/capture_helper.rb:50:in `capture'
+actionview (7.1.3) lib/action_view/helpers/form_helper.rb:773:in `form_with'
+actionview (7.1.3) lib/action_view/helpers/form_helper.rb:461:in `form_for'
+activeadmin (3.2.0) lib/active_admin/filters/forms.rb:57:in `active_admin_filters_form_for'
+arbre (1.7.0) lib/arbre/element.rb:183:in `method_missing'
+activeadmin (3.2.0) lib/active_admin/filters/resource_extension.rb:169:in `block in filters_sidebar_section'
+activeadmin (3.2.0) lib/active_admin/views/components/sidebar_section.rb:26:in `instance_exec'
+activeadmin (3.2.0) lib/active_admin/views/components/sidebar_section.rb:26:in `build_sidebar_content'
+activeadmin (3.2.0) lib/active_admin/views/components/sidebar_section.rb:14:in `build'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:27:in `build_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:40:in `insert_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:15:in `sidebar_section'
+activeadmin (3.2.0) lib/active_admin/views/components/sidebar.rb:10:in `map'
+activeadmin (3.2.0) lib/active_admin/views/components/sidebar.rb:10:in `build'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:27:in `build_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:40:in `insert_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:15:in `sidebar'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:88:in `block in build_page_content'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:32:in `block in build_tag'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:27:in `build_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:40:in `insert_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:15:in `div'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:86:in `build_page_content'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:63:in `block (2 levels) in build_page'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:32:in `block in build_tag'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:27:in `build_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:40:in `insert_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:15:in `div'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:59:in `block in build_page'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:58:in `build_page'
+activeadmin (3.2.0) lib/active_admin/views/pages/base.rb:10:in `build'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+arbre (1.7.0) lib/arbre/context.rb:94:in `with_current_arbre_element'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:27:in `build_tag'
+arbre (1.7.0) lib/arbre/element/builder_methods.rb:40:in `insert_tag'
+activeadmin (3.2.0) app/views/active_admin/resource/index.html.arb:3
+arbre (1.7.0) lib/arbre/context.rb:47:in `instance_eval'
+arbre (1.7.0) lib/arbre/context.rb:47:in `initialize'
+activeadmin (3.2.0) app/views/active_admin/resource/index.html.arb:1:in `new'
+activeadmin (3.2.0) app/views/active_admin/resource/index.html.arb:1
+actionview (7.1.3) lib/action_view/base.rb:264:in `public_send'
+actionview (7.1.3) lib/action_view/base.rb:264:in `_run'
+actionview (7.1.3) lib/action_view/template.rb:261:in `block in render'
+activesupport (7.1.3) lib/active_support/notifications.rb:208:in `instrument'
+actionview (7.1.3) lib/action_view/template.rb:549:in `instrument_render_template'
+actionview (7.1.3) lib/action_view/template.rb:249:in `render'
+actionview (7.1.3) lib/action_view/renderer/template_renderer.rb:66:in `block (2 levels) in render_template'
+activesupport (7.1.3) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3) lib/active_support/notifications.rb:206:in `instrument'
+actionview (7.1.3) lib/action_view/renderer/template_renderer.rb:60:in `block in render_template'
+actionview (7.1.3) lib/action_view/renderer/template_renderer.rb:80:in `render_with_layout'
+actionview (7.1.3) lib/action_view/renderer/template_renderer.rb:59:in `render_template'
+actionview (7.1.3) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (7.1.3) lib/action_view/renderer/renderer.rb:63:in `render_template_to_object'
+actionview (7.1.3) lib/action_view/renderer/renderer.rb:31:in `render_to_object'
+actionview (7.1.3) lib/action_view/rendering.rb:135:in `block in _render_template'
+actionview (7.1.3) lib/action_view/base.rb:291:in `in_rendering_context'
+actionview (7.1.3) lib/action_view/rendering.rb:134:in `_render_template'
+actionpack (7.1.3) lib/action_controller/metal/streaming.rb:256:in `_render_template'
+actionview (7.1.3) lib/action_view/rendering.rb:121:in `render_to_body'
+actionpack (7.1.3) lib/action_controller/metal/rendering.rb:158:in `render_to_body'
+actionpack (7.1.3) lib/action_controller/metal/renderers.rb:141:in `render_to_body'
+actionpack (7.1.3) lib/abstract_controller/rendering.rb:27:in `render'
+actionpack (7.1.3) lib/action_controller/metal/rendering.rb:139:in `render'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:29:in `block (2 levels) in render'
+/home/sadaram/.rbenv/versions/3.1.1/lib/ruby/3.1.0/benchmark.rb:311:in `realtime'
+activesupport (7.1.3) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:29:in `block in render'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:98:in `cleanup_view_runtime'
+activerecord (7.1.3) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:28:in `render'
+responders (3.1.1) lib/action_controller/responder.rb:245:in `default_render'
+responders (3.1.1) lib/action_controller/responder.rb:175:in `to_html'
+responders (3.1.1) lib/responders/flash_responder.rb:105:in `to_html'
+responders (3.1.1) lib/action_controller/responder.rb:168:in `respond'
+responders (3.1.1) lib/action_controller/responder.rb:161:in `call'
+responders (3.1.1) lib/action_controller/respond_with.rb:216:in `respond_with'
+inherited_resources (1.14.0) lib/inherited_resources/actions.rb:7:in `index'
+activeadmin (3.2.0) lib/active_admin/resource_controller/streaming.rb:13:in `index'
+actionpack (7.1.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.1.3) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.3) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.3) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.3) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+actiontext (7.1.3) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:882:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (3.0.9) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.9) lib/rack/etag.rb:29:in `call'
+rack (3.0.9) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.9) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/admin/admin_users" for ::1 at 2024-01-31 16:38:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (1.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 334.3ms | Allocations: 76854)
+Completed 200 OK in 620ms (Views: 356.4ms | ActiveRecord: 27.0ms | Allocations: 106848)
+
+
+Started GET "/admin/courses?order=titel_desc" for ::1 at 2024-01-31 16:42:02 +0530
+  
+NameError (uninitialized constant Courses
+
+ActiveAdmin.register Courses do
+                     ^^^^^^^):
+  
+app/admin/courses.rb:1:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/admin/courses?order=titel_desc" for ::1 at 2024-01-31 16:42:08 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20240131110841_create_courses.rb
+
+
+):
+  
+activerecord (7.1.3) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3) lib/active_support/file_update_checker.rb:85:in `execute'
+activesupport (7.1.3) lib/active_support/file_update_checker.rb:95:in `execute_if_updated'
+activerecord (7.1.3) lib/active_record/migration.rb:651:in `block in call'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/getsde/index" for ::1 at 2024-01-31 16:42:52 +0530
+  
+NameError (uninitialized constant Courses
+
+ActiveAdmin.register Courses do
+                     ^^^^^^^):
+  
+app/admin/courses.rb:1:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+Migrating to CreateCourses (20240131110841)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (16.0ms)[0m  [1m[35mCREATE TABLE "courses" ("id" bigserial primary key, "titel" character varying, "description" character varying, "live_clases" character varying, "number_of_quizzes" character varying, "number_of_classes" character varying, "access_lifetime" character varying, "discount" character varying, "amount" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240131110841') RETURNING "version"[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/admin/admin_users" for ::1 at 2024-01-31 16:56:39 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 411.9ms | Allocations: 77946)
+Completed 200 OK in 620ms (Views: 429.3ms | ActiveRecord: 32.4ms | Allocations: 106420)
+
+
+Started GET "/admin/courses" for ::1 at 2024-01-31 16:56:43 +0530
+Processing by Admin::CoursesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.3ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 64.0ms | Allocations: 21596)
+Completed 200 OK in 91ms (Views: 64.5ms | ActiveRecord: 9.4ms | Allocations: 25195)
+
+
+Started GET "/admin/courses/new" for ::1 at 2024-01-31 16:56:45 +0530
+Processing by Admin::CoursesController#new as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb (Duration: 177.6ms | Allocations: 25246)
+Completed 200 OK in 250ms (Views: 179.7ms | ActiveRecord: 0.6ms | Allocations: 38630)
+
+
+Started POST "/admin/courses" for ::1 at 2024-01-31 16:57:31 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::CoursesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"Python", "description"=>"3 moth Intractive class with Django framwork", "live_clases"=>"yes", "number_of_quizzes"=>"40 quizzes", "number_of_classes"=>"65 class", "access_lifetime"=>"yes", "discount"=>"60% off", "amount"=>"10000"}, "commit"=>"Create Course"}
+  [1m[36mAdminUser Load (1.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Create (7.0ms)[0m  [1m[32mINSERT INTO "courses" ("titel", "description", "live_clases", "number_of_quizzes", "number_of_classes", "access_lifetime", "discount", "amount", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["titel", "Python"], ["description", "3 moth Intractive class with Django framwork"], ["live_clases", "yes"], ["number_of_quizzes", "40 quizzes"], ["number_of_classes", "65 class"], ["access_lifetime", "yes"], ["discount", "60% off"], ["amount", "10000"], ["created_at", "2024-01-31 11:27:32.454014"], ["updated_at", "2024-01-31 11:27:32.454014"]]
+  [1m[36mTRANSACTION (4.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/courses/1
+Completed 302 Found in 380ms (ActiveRecord: 45.1ms | Allocations: 45947)
+
+
+Started GET "/admin/courses/1" for ::1 at 2024-01-31 16:57:32 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.8ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 296.0ms | Allocations: 65668)
+Completed 200 OK in 323ms (Views: 305.9ms | ActiveRecord: 1.6ms | Allocations: 70833)
+
+
+Started GET "/admin/courses/1/edit" for ::1 at 2024-01-31 16:57:35 +0530
+Processing by Admin::CoursesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.9ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb (Duration: 100.9ms | Allocations: 29080)
+Completed 200 OK in 119ms (Views: 103.7ms | ActiveRecord: 1.3ms | Allocations: 32476)
+
+
+Started PATCH "/admin/courses/1" for ::1 at 2024-01-31 16:57:43 +0530
+Processing by Admin::CoursesController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"Python", "description"=>"3 moth Intractive class with Django framwork", "live_clases"=>"yes", "number_of_quizzes"=>"40 quizzes", "number_of_classes"=>"65 class", "access_lifetime"=>"yes", "discount"=>"60% off", "amount"=>"10000"}, "commit"=>"Update Course", "id"=>"1"}
+  [1m[36mAdminUser Load (3.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.8ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin/courses/1
+Completed 302 Found in 67ms (ActiveRecord: 4.6ms | Allocations: 5063)
+
+
+Started GET "/admin/courses/1" for ::1 at 2024-01-31 16:57:43 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.6ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 164.4ms | Allocations: 18584)
+Completed 200 OK in 196ms (Views: 165.5ms | ActiveRecord: 1.1ms | Allocations: 21435)
+
+
+Started GET "/admin/courses" for ::1 at 2024-01-31 16:57:47 +0530
+Processing by Admin::CoursesController#index as HTML
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 100.3ms | Allocations: 29717)
+Completed 200 OK in 118ms (Views: 101.9ms | ActiveRecord: 1.7ms | Allocations: 32860)
+
+
+Started GET "/admin/courses/new" for ::1 at 2024-01-31 16:57:50 +0530
+Processing by Admin::CoursesController#new as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb (Duration: 71.1ms | Allocations: 23963)
+Completed 200 OK in 84ms (Views: 73.6ms | ActiveRecord: 0.5ms | Allocations: 26426)
+
+
+Started POST "/admin/courses" for ::1 at 2024-01-31 16:58:04 +0530
+Processing by Admin::CoursesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"React.js", "description"=>"2 Month class language with framwork", "live_clases"=>"no", "number_of_quizzes"=>"", "number_of_classes"=>"", "access_lifetime"=>"", "discount"=>"", "amount"=>""}, "commit"=>"Create Course"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Create (6.1ms)[0m  [1m[32mINSERT INTO "courses" ("titel", "description", "live_clases", "number_of_quizzes", "number_of_classes", "access_lifetime", "discount", "amount", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["titel", "React.js"], ["description", "2 Month class language with framwork"], ["live_clases", "no"], ["number_of_quizzes", ""], ["number_of_classes", ""], ["access_lifetime", ""], ["discount", ""], ["amount", ""], ["created_at", "2024-01-31 11:28:04.583685"], ["updated_at", "2024-01-31 11:28:04.583685"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/courses/2
+Completed 302 Found in 29ms (ActiveRecord: 8.3ms | Allocations: 6363)
+
+
+Started GET "/admin/courses/2" for ::1 at 2024-01-31 16:58:04 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.7ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 55.8ms | Allocations: 18746)
+Completed 200 OK in 68ms (Views: 57.3ms | ActiveRecord: 1.1ms | Allocations: 21566)
+
+
+Started GET "/admin/courses/2/edit" for ::1 at 2024-01-31 16:58:06 +0530
+Processing by Admin::CoursesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.9ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Course Load (0.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb (Duration: 71.9ms | Allocations: 23425)
+Completed 200 OK in 84ms (Views: 72.8ms | ActiveRecord: 1.3ms | Allocations: 26235)
+
+
+Started PATCH "/admin/courses/2" for ::1 at 2024-01-31 16:58:47 +0530
+Processing by Admin::CoursesController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"React.js", "description"=>"3 Month class language with framwork", "live_clases"=>"no", "number_of_quizzes"=>"40 quizzes", "number_of_classes"=>"40 class", "access_lifetime"=>"no", "discount"=>"40% off", "amount"=>"8000"}, "commit"=>"Update Course", "id"=>"2"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.5ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Update (4.4ms)[0m  [1m[33mUPDATE "courses" SET "description" = $1, "number_of_quizzes" = $2, "number_of_classes" = $3, "access_lifetime" = $4, "discount" = $5, "amount" = $6, "updated_at" = $7 WHERE "courses"."id" = $8[0m  [["description", "3 Month class language with framwork"], ["number_of_quizzes", "40 quizzes"], ["number_of_classes", "40 class"], ["access_lifetime", "no"], ["discount", "40% off"], ["amount", "8000"], ["updated_at", "2024-01-31 11:28:47.865354"], ["id", 2]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/courses/2
+Completed 302 Found in 31ms (ActiveRecord: 6.7ms | Allocations: 7293)
+
+
+Started GET "/admin/courses/2" for ::1 at 2024-01-31 16:58:47 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.4ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 60.4ms | Allocations: 18631)
+Completed 200 OK in 86ms (Views: 61.9ms | ActiveRecord: 0.9ms | Allocations: 21464)
+
+
+Started GET "/admin/courses" for ::1 at 2024-01-31 16:58:50 +0530
+Processing by Admin::CoursesController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.1ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 80.1ms | Allocations: 28556)
+Completed 200 OK in 92ms (Views: 80.4ms | ActiveRecord: 1.5ms | Allocations: 30631)
+
+
+Started GET "/admin/courses/new" for ::1 at 2024-01-31 16:58:52 +0530
+Processing by Admin::CoursesController#new as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb (Duration: 67.0ms | Allocations: 22080)
+Completed 200 OK in 78ms (Views: 68.2ms | ActiveRecord: 0.3ms | Allocations: 24000)
+
+
+Started POST "/admin/courses" for ::1 at 2024-01-31 16:59:42 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::CoursesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"Ruby on Rails ", "description"=>"3 moth internship", "live_clases"=>"no", "number_of_quizzes"=>"35 quizzes", "number_of_classes"=>"50 classes", "access_lifetime"=>"no", "discount"=>"40% off", "amount"=>"10000"}, "commit"=>"Create Course"}
+  [1m[36mAdminUser Load (1.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCourse Create (6.1ms)[0m  [1m[32mINSERT INTO "courses" ("titel", "description", "live_clases", "number_of_quizzes", "number_of_classes", "access_lifetime", "discount", "amount", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["titel", "Ruby on Rails "], ["description", "3 moth internship"], ["live_clases", "no"], ["number_of_quizzes", "35 quizzes"], ["number_of_classes", "50 classes"], ["access_lifetime", "no"], ["discount", "40% off"], ["amount", "10000"], ["created_at", "2024-01-31 11:29:42.851819"], ["updated_at", "2024-01-31 11:29:42.851819"]]
+  [1m[36mTRANSACTION (8.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/admin/courses/3
+Completed 302 Found in 379ms (ActiveRecord: 48.5ms | Allocations: 45945)
+
+
+Started GET "/admin/courses/3" for ::1 at 2024-01-31 16:59:42 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (1.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 278.8ms | Allocations: 65148)
+Completed 200 OK in 302ms (Views: 287.3ms | ActiveRecord: 1.9ms | Allocations: 70283)
+
+
+Started GET "/admin/courses" for ::1 at 2024-01-31 16:59:49 +0530
+Processing by Admin::CoursesController#index as HTML
+  [1m[36mAdminUser Load (1.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.2ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 148.4ms | Allocations: 35405)
+Completed 200 OK in 168ms (Views: 150.1ms | ActiveRecord: 2.4ms | Allocations: 38771)
+
+
+Started GET "/admin/courses?order=id_asc" for ::1 at 2024-01-31 17:00:04 +0530
+Processing by Admin::CoursesController#index as HTML
+  Parameters: {"order"=>"id_asc"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (0.9ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" asc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 211.3ms | Allocations: 30650)
+Completed 200 OK in 235ms (Views: 211.7ms | ActiveRecord: 1.7ms | Allocations: 32978)
+
+
+Started GET "/getsde/index" for ::1 at 2024-01-31 17:00:34 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1488)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 4356)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 5635)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-31 18:00:23 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1666)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 5794)
+Completed 200 OK in 102ms (Views: 68.4ms | ActiveRecord: 0.0ms | Allocations: 10737)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-01-31 18:54:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1666)
+  Rendered layout layouts/application.html.erb (Duration: 32.5ms | Allocations: 5774)
+Completed 200 OK in 69ms (Views: 51.5ms | ActiveRecord: 0.0ms | Allocations: 10718)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/admin/courses?order=id_asc" for ::1 at 2024-01-31 18:55:01 +0530
+Processing by Admin::CoursesController#index as HTML
+  Parameters: {"order"=>"id_asc"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.5ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" asc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 574.3ms | Allocations: 92287)
+Completed 200 OK in 763ms (Views: 574.6ms | ActiveRecord: 37.3ms | Allocations: 116909)
+
+
+Started GET "/admin/courses/new" for ::1 at 2024-01-31 18:55:13 +0530
+Processing by Admin::CoursesController#new as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/new.html.arb (Duration: 73.4ms | Allocations: 25380)
+Completed 200 OK in 84ms (Views: 75.1ms | ActiveRecord: 0.7ms | Allocations: 27991)
+
+
+Started GET "/admin/courses" for ::1 at 2024-01-31 18:55:20 +0530
+Processing by Admin::CoursesController#index as HTML
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb
+  [1m[36mCourse Load (1.0ms)[0m  [1m[34mSELECT "courses".* FROM "courses" ORDER BY "courses"."id" desc LIMIT $1 OFFSET $2[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/index.html.arb (Duration: 89.2ms | Allocations: 30611)
+Completed 200 OK in 98ms (Views: 89.4ms | ActiveRecord: 1.6ms | Allocations: 32961)
+
+
+Started GET "/admin/courses/3" for ::1 at 2024-01-31 18:55:23 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.6ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 61.8ms | Allocations: 18861)
+Completed 200 OK in 79ms (Views: 64.6ms | ActiveRecord: 1.3ms | Allocations: 22640)
+
+
+Started GET "/admin/courses/3/edit" for ::1 at 2024-01-31 18:55:25 +0530
+Processing by Admin::CoursesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.7ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE Course Load (0.0ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/edit.html.arb (Duration: 104.8ms | Allocations: 25310)
+Completed 200 OK in 118ms (Views: 106.6ms | ActiveRecord: 1.1ms | Allocations: 28351)
+
+
+Started PATCH "/admin/courses/3" for ::1 at 2024-01-31 18:55:28 +0530
+Processing by Admin::CoursesController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "course"=>{"titel"=>"Ruby on Rails ", "description"=>"3 moth internship", "live_clases"=>"no", "number_of_quizzes"=>"35 quizzes", "number_of_classes"=>"50 classes", "access_lifetime"=>"no", "discount"=>"40% off", "amount"=>"10000"}, "commit"=>"Update Course", "id"=>"3"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.7ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin/courses/3
+Completed 302 Found in 26ms (ActiveRecord: 1.4ms | Allocations: 5584)
+
+
+Started GET "/admin/courses/3" for ::1 at 2024-01-31 18:55:28 +0530
+Processing by Admin::CoursesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = $1 ORDER BY "admin_users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCourse Load (0.8ms)[0m  [1m[34mSELECT "courses".* FROM "courses" WHERE "courses"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb
+  Rendered /home/sadaram/.rvm/gems/ruby-3.1.1/gems/activeadmin-3.2.0/app/views/active_admin/resource/show.html.arb (Duration: 53.6ms | Allocations: 18504)
+Completed 200 OK in 67ms (Views: 54.8ms | ActiveRecord: 1.2ms | Allocations: 21370)
+
+
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  role "sadaram" does not exist
+):
+  
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:80:in `rescue in new_client'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:68:in `new_client'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:980:in `connect'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:992:in `reconnect'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:685:in `block in reconnect!'
+activesupport (7.1.3) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:684:in `reconnect!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:788:in `verify!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:795:in `connect!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1001:in `block in with_raw_connection'
+activesupport (7.1.3) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1000:in `with_raw_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1113:in `valid_raw_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:616:in `get_database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:374:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:70:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:200:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:871:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:644:in `check_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:678:in `new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:723:in `checkout_new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:702:in `try_to_checkout_new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:654:in `acquire_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `checkout'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:182:in `connection'
+activerecord (7.1.3) lib/active_record/migration/pending_migration_connection.rb:8:in `establish_temporary_connection'
+activerecord (7.1.3) lib/active_record/migration.rb:774:in `block in pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:773:in `each'
+activerecord (7.1.3) lib/active_record/migration.rb:773:in `pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:752:in `check_pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (7.1.3) lib/active_support/logger_silence.rb:18:in `block in silence'
+activesupport (7.1.3) lib/active_support/logger_thread_safe_level.rb:45:in `log_at'
+activesupport (7.1.3) lib/active_support/logger_silence.rb:18:in `silence'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/getsde/index" for ::1 at 2024-02-01 10:28:30 +0530
+  
+ActiveRecord::ConnectionNotEstablished (FATAL:  role "sadaram" does not exist
+):
+  
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:80:in `rescue in new_client'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:68:in `new_client'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:980:in `connect'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:992:in `reconnect'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:685:in `block in reconnect!'
+activesupport (7.1.3) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:684:in `reconnect!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:788:in `verify!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:795:in `connect!'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1001:in `block in with_raw_connection'
+activesupport (7.1.3) lib/active_support/concurrency/null_lock.rb:9:in `synchronize'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1000:in `with_raw_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:1113:in `valid_raw_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:616:in `get_database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:374:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:70:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/schema_cache.rb:200:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract_adapter.rb:871:in `database_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/postgresql_adapter.rb:644:in `check_version'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:678:in `new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:723:in `checkout_new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:702:in `try_to_checkout_new_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:654:in `acquire_connection'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `checkout'
+activerecord (7.1.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:182:in `connection'
+activerecord (7.1.3) lib/active_record/migration/pending_migration_connection.rb:8:in `establish_temporary_connection'
+activerecord (7.1.3) lib/active_record/migration.rb:774:in `block in pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:773:in `each'
+activerecord (7.1.3) lib/active_record/migration.rb:773:in `pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:752:in `check_pending_migrations'
+activerecord (7.1.3) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.9) lib/rack/method_override.rb:28:in `call'
+rack (3.0.9) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.9) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE "sadaram_7" ENCODING = 'utf8'[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE "sadaram_test" ENCODING = 'utf8'[0m
+Started GET "/getsde/index" for ::1 at 2024-02-01 10:35:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1666)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 5780)
+Completed 200 OK in 60ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 10723)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.9ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2555644173732274380)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:15:35 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 1667)
+  Rendered layout layouts/application.html.erb (Duration: 51.3ms | Allocations: 5797)
+Completed 200 OK in 81ms (Views: 64.0ms | ActiveRecord: 0.0ms | Allocations: 10726)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:32:03 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 18.6ms | Allocations: 4290)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4421)
+Completed 500 Internal Server Error in 75ms (ActiveRecord: 0.0ms | Allocations: 9303)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    7:     <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:32:16 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 3312)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3401)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 4630)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <%# <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> %>
+    7:     <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:38:19 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 3295)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3384)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 4625)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+    4:     <meta charset="UTF-8">
+    5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    6:     <%# <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> %>
+    7:     <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
+    8: 
+    9: 
+   10:     <title>Get SDE Ready</title>
+  
+app/views/getsde/index.html.erb:7
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:39:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1690)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 5802)
+Completed 200 OK in 97ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 10731)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:48:27 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 3351)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3440)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 4683)
+
+
+  
+ActionView::Template::Error (The asset "vendor/bootstrap/css/bootstrap.min.css" is not present in the asset pipeline.
+):
+     5:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     6:     <%# <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> %>
+     7:     <%# <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %> %>
+     8:     <%= stylesheet_link_tag 'vendor/bootstrap/css/bootstrap.min' %>
+     9: 
+    10: 
+    11: 
+  
+app/views/getsde/index.html.erb:8
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:49:50 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1455)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 4282)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 5536)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:51:07 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 1492)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 4411)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 5698)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:51:22 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 339)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1216)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1506)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:51:52 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1455)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 4261)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 5516)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 16:52:41 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1456)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 4270)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.0ms | Allocations: 5524)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
+Started GET "/getsde/index" for ::1 at 2024-02-01 18:33:40 +0530
+Processing by GetsdeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering getsde/index.html.erb within layouts/application
+  Rendered getsde/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 1151)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 1416)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/vendor/bootstrap/css/bootstrap.min.css"):
+  
